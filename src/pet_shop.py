@@ -31,7 +31,7 @@ def increase_pets_sold(pet_shop, sold):
 def get_stock_count(pet_shop):
     return len(pet_shop["pets"])
 
-# EIGHTH PASS TEST
+# EIGHTH & NINTH PASS TEST
 def get_pets_by_breed(pet_shop, pet_name):
     pets = []
     for pet in pet_shop["pets"]:
